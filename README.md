@@ -28,7 +28,7 @@ to compile:
 The server listens on port 8080 so in another terminal you do:
  `curl -i http://localhost:8080/index.html` OR whatever you named your file 
 
-If you make a custom webpage you can check it out in your browser at http://localhost:8080/[filename.html]
+If you make a custom webpage you can check it out in your browser at `http://localhost:8080/[filename.html]`
 
 ## Limitations 🤔
  Right now the project sends every file as text/html, so whatever styling you want to do has to be inside the webpage instead of linking to sep CSS file....
