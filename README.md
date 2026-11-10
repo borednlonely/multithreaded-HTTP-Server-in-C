@@ -1,4 +1,4 @@
-# 💽 Multithreaded HTTP Server in C 📁
+# Multithreaded HTTP Server in C 📁
 Small Multithreaded HTTP static file server in C using POSIX sockets and picohttpparser. It accepts connections over IPv4 and IPv6 and hands each one to its own thread then parses the request with [picohttpparser](https://github.com/h2o/picohttpparser), then serves files from a `www/` directory.
 
 This is just a fun project I wanted to attempt, it's not ready for internet use! 😅
