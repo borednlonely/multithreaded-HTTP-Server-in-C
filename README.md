@@ -26,7 +26,7 @@ to compile:
 `./server`
 
 The server listens on port 8080 so in another terminal you do:
-sh curl -i http://localhost:8080/index.html OR whatever you named your file 
+ curl -i http://localhost:8080/index.html OR whatever you named your file 
 
 If you make a custom webpage you can check it out in your browser at http://localhost:8080/[filename.html]
 
