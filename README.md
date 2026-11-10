@@ -5,6 +5,7 @@ This is just a fun project I wanted to attempt, it's not ready for internet use!
 
 ## Features 📋🧐
 Thread per connection concurrency with detached pthreads, so a slow client only blocks its own thread
+
 IPv4/IPv6 socket setup using `getaddrinfo`
 
 Incremental request reading: loops on read until the parser reports a completed request. So requests split across TCP segments are handled
